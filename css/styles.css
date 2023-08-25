@@ -55,6 +55,9 @@ button {
     border: none;
     border-radius: 2.8rem;
 }
+main {
+    min-width: 32rem;
+}
 
 /* ------------------------------------------------------ */
 
@@ -95,17 +98,17 @@ button {
 }
 
 /* ------------------------------------------------------ */
-main {
-    min-width: 32rem;
-}
+
 .design-section-container {
     display: grid;
-    grid-template-rows: auto 320px auto;
+    grid-template-rows: auto;
     justify-items: center;
-    margin: 10rem 2.4rem 6.3rem;
+    margin: 10rem 2.4rem 27.3rem;
 }
 .image-design {
     width: 320px;
+    height: 320px;
+    margin-bottom: 6rem;
     background-image: url("../images/illustration-editor-mobile.svg");
     background-position: center;
     background-size: cover;
@@ -116,10 +119,43 @@ main {
     flex-direction: column;
 }
 .design-section--description h2 {
-    margin-bottom: 1.6rem;
+    margin: 4rem 0 1.6rem
 }
 .design-section--description p {
-    margin-bottom: 4rem;
     line-height: 2.8rem;
     letter-spacing: 0.05rem;
+}
+
+/* ------------------------------------------------------ */
+
+.art-section-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20rem 2.4rem 9.3rem;
+    border-radius: 0px 100px;
+    background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+}
+.image-phones {
+    position: absolute;
+    top: -176px;
+    width: 375px;
+    height: 375px;
+    background-image: url("../images/illustration-phones.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.art-section--description h2 {
+    font-size: 4rem;
+    line-height: 6.3rem;
+    letter-spacing: 0.02rem;
+    margin-bottom: 0.5rem;
+    color: var(--white-text);
+}
+.art-section--description p {
+    line-height: 2.8rem;
+    letter-spacing: 0.05rem;
+    color: var(--white-text);
 }
