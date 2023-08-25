@@ -1,6 +1,4 @@
 :root {
-    --very-light-red: hsl(13, 100%, 72%);
-    --light-red: hsl(353, 100%, 62%);
     --white-text: hsl(0, 0%, 100%);
     --gray-text: hsl(207, 13%, 34%);
 }
@@ -17,7 +15,6 @@ body {
     overflow-y: scroll;
     min-height: 100vh;
     font-family: 'Overpass', sans-serif;
-    /* font-family: 'Ubuntu', sans-serif; */
 }
 body::-webkit-scrollbar {
     display: none;
@@ -31,15 +28,25 @@ body::-webkit-scrollbar {
 header {
     min-width: 32rem;
     padding: 5.6rem 2.4rem 15.6rem;
+    border-radius: 0px 0px 0px 100px;
     background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 }
 nav {
     display: grid;
     grid-template-columns: auto auto;
 }
+h2 {
+    color: #1F3E5A;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0.01rem;
+}
 p {
     font-size: 1.6rem;
     font-weight: 400;
+    text-align: center;
     color: var(--gray-text);
 }
 button {
@@ -48,6 +55,9 @@ button {
     border: none;
     border-radius: 2.8rem;
 }
+
+/* ------------------------------------------------------ */
+
 .navbar-menu {
     width: 32px;
     height: 18px;
@@ -58,11 +68,11 @@ button {
     display: flex;
     flex-direction: column;
     margin-top: 11.5rem;
-    text-align: center;
 }
 .header-description h1 {
     font-size: 3.6rem;
     font-weight: 600;
+    text-align: center;
     color: var(--white-text);
 }
 .header-description p {
@@ -82,4 +92,34 @@ button {
     background-color: transparent;
     border: 1px solid #fff;
     color: var(--white-text);
+}
+
+/* ------------------------------------------------------ */
+main {
+    min-width: 32rem;
+}
+.design-section-container {
+    display: grid;
+    grid-template-rows: auto 320px auto;
+    justify-items: center;
+    margin: 10rem 2.4rem 6.3rem;
+}
+.image-design {
+    width: 320px;
+    background-image: url("../images/illustration-editor-mobile.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.design-section--description {
+    display: flex;
+    flex-direction: column;
+}
+.design-section--description h2 {
+    margin-bottom: 1.6rem;
+}
+.design-section--description p {
+    margin-bottom: 4rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.05rem;
 }
