@@ -144,7 +144,7 @@ main {
     height: 375px;
     background-image: url("../images/illustration-phones.svg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .art-section--description h2 {
@@ -158,4 +158,30 @@ main {
     line-height: 2.8rem;
     letter-spacing: 0.05rem;
     color: var(--white-text);
+}
+
+/* ------------------------------------------------------ */
+
+.computer-section-container {
+    display: grid;
+    justify-items: center;
+    margin: 7.9rem 2.4rem 8rem;
+}
+.image-computer {
+    width: 326px;
+    height: 326px;
+    background-image: url("../images/illustration-laptop-mobile.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.computer-section--description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.computer-section--description p {
+    margin-bottom: 4rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.05rem;
 }
