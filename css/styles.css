@@ -49,6 +49,27 @@ p {
     text-align: center;
     color: var(--gray-text);
 }
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFF;
+}
+ul {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 3.3rem;
+    list-style: none;
+    color: #FFF;
+    opacity: 0.75;
+}
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 button {
     font-family: 'Ubuntu', sans-serif;
     padding: 1.5rem;
@@ -184,4 +205,20 @@ main {
     margin-bottom: 4rem;
     line-height: 2.8rem;
     letter-spacing: 0.05rem;
+}
+
+/* ------------------------------------------------------ */
+
+.footer {
+    display: grid;
+    padding: 7.5rem 13.7rem;
+    gap: 21px;
+    background-color: #24242C;
+    border-radius: 0px 100px 0px 0px;
+}
+.footer img {
+    margin-bottom: 3.1rem;
+}
+.footer h3 {
+    margin-top: 2rem;
 }
