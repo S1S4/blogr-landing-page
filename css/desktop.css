@@ -1,0 +1,23 @@
+main p {
+    text-align: left;
+}
+.design-section-container {
+    grid-template-areas: 
+    "title title"
+    "description image"
+    ;
+}
+.design-section--title {
+    grid-area: title;
+}
+.image-design {
+    grid-area: image;
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    background-image: url("../images/illustration-editor-desktop.svg");
+    background-size: 100%;
+}
+.design-section--description {
+    grid-area: description;
+}

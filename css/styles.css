@@ -27,13 +27,13 @@ body::-webkit-scrollbar {
 
 header {
     min-width: 32rem;
-    padding: 5.6rem 2.4rem 15.6rem;
     border-radius: 0px 0px 0px 100px;
     background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 }
 nav {
     display: grid;
     grid-template-columns: auto auto;
+
 }
 h2 {
     color: #1F3E5A;
@@ -88,6 +88,10 @@ main {
     align-self: center;
     justify-self: end;
 }
+.header-container {
+    padding: 5.6rem 2.4rem 15.6rem;
+    background: url("../images/bg-pattern-intro-mobile.svg") 30% 54%;
+}
 .header-description {
     display: flex;
     flex-direction: column;
@@ -122,7 +126,6 @@ main {
 
 .design-section-container {
     display: grid;
-    grid-template-rows: auto;
     justify-items: center;
     margin: 10rem 2.4rem 27.3rem;
 }
@@ -138,6 +141,7 @@ main {
 .design-section--description {
     display: flex;
     flex-direction: column;
+    max-width: 540px;
 }
 .design-section--description h2 {
     margin: 4rem 0 1.6rem
@@ -154,9 +158,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20rem 2.4rem 9.3rem;
+    padding: 0rem 2.4rem 9.3rem;
     border-radius: 0px 100px;
-    background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+    background: url("../images/bg-pattern-circles.svg"), linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+    background-position: center 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .image-phones {
     position: absolute;
@@ -168,10 +175,14 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.art-section--description {
+    max-width: 55rem;
+}
 .art-section--description h2 {
     font-size: 4rem;
     line-height: 6.3rem;
     letter-spacing: 0.02rem;
+    padding-top: 21rem;
     margin-bottom: 0.5rem;
     color: var(--white-text);
 }
