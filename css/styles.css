@@ -80,6 +80,15 @@ main {
     min-width: 32rem;
 }
 
+.image-design,
+.image-computer {
+    display: block;
+    max-width: 28rem;
+}
+.inactive {
+    display: none;
+}
+
 /* ------------------------------------------------------ */
 
 .navbar-menu {
@@ -131,21 +140,18 @@ main {
     padding: 10rem 2.4rem 27.3rem;
 }
 .image-design {
-    width: 320px;
-    height: 320px;
+    width: 100%;
     margin-bottom: 6rem;
-    background-image: url("../images/illustration-editor-mobile.svg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .design-section--description {
     display: flex;
     flex-direction: column;
-    max-width: 540px;
+}
+.design-section--title {
+    margin-bottom: 3.2rem;
 }
 .design-section--description h2 {
-    margin: 4rem 0 1.6rem
+    margin: 4.6rem 0 1.6rem
 }
 .design-section--description p {
     line-height: 2.8rem;
@@ -169,15 +175,7 @@ main {
 .image-phones {
     position: absolute;
     top: -176px;
-    width: 375px;
-    height: 375px;
-    background-image: url("../images/illustration-phones.svg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.art-section--description {
-    max-width: 55rem;
+    max-width: 32rem;
 }
 .art-section--description h2 {
     font-size: 4rem;
@@ -201,12 +199,7 @@ main {
     margin: 7.9rem 2.4rem 8rem;
 }
 .image-computer {
-    width: 326px;
-    height: 326px;
-    background-image: url("../images/illustration-laptop-mobile.svg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
 }
 .computer-section--description {
     display: flex;

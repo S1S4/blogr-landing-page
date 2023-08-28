@@ -5,18 +5,16 @@ main p {
 /* ------------------------------------------------------ */
 
 .header-container {
-    background: url("../images/bg-pattern-intro-desktop.svg") 30% 54%;
+    background: url("../images/bg-pattern-intro-desktop.svg") 20% 54%;
+    background-repeat: no-repeat;
 }
 
 /* ------------------------------------------------------ */
 
 .design-section-container {
-    position: relative;
-    padding: 15rem 0 157px;
-    justify-content: end;
-    column-gap: 125px;
-    grid-template-columns: 600px 800px;
-    grid-template-rows: auto 800px;
+    /* padding: 15rem 0 15.7rem; */
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-template-areas: 
     "title title"
     "description image"
@@ -26,11 +24,7 @@ main p {
     grid-area: title;
 }
 .image-design {
-    position: absolute;
     grid-area: image;
-    width: 858px;
-    height: 820px;
-    background-image: url("../images/illustration-editor-desktop.svg");
 }
 .design-section--description {
     grid-area: description;
