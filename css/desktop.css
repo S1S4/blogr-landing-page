@@ -31,10 +31,11 @@ main p {
     position: relative;
     padding: 19rem 0 25rem 5rem;
     grid-template-columns: auto 500px;
-    grid-template-rows: auto 500px;
+    grid-template-rows: auto 250px 250px;
     grid-template-areas: 
     "title title"
-    "description image"
+    "description1 image"
+    "description2 image"
     ;
     justify-content: end;
     overflow-x: hidden;
@@ -45,6 +46,7 @@ main p {
     margin: 0;
     font-size: 4rem;
     padding-right: 20rem;
+    margin-bottom: 9.3rem;
 }
 .image-design {
     position: absolute;
@@ -56,13 +58,19 @@ main p {
     align-self: center;
 }
 .design-section--description {
-    grid-area: description;
     align-self: center;
     justify-self: left;
     margin-right: 22rem;
 }
+.design-description-1 {
+    grid-area: description1;
+}
+.design-description-2 {
+    grid-area: description2;
+}
 .design-section--description h2 {
     margin: 0;
+    text-align: left;
 }
 
 /* ------------------------------------------------------ */
@@ -89,4 +97,43 @@ main p {
     padding: 0;
     font-size: 3.8rem;
     text-align: left;
+}
+
+/* ------------------------------------------------------ */
+
+.computer-section-container {
+    position: relative;
+    padding: 21.6rem 5rem 20rem 0;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 250px 250px;
+    grid-template-areas: 
+    "image description1"
+    "image description2"
+    ;
+    column-gap: 20rem;
+    justify-content: start;
+    overflow-x: hidden;
+}
+.image-computer {
+    position: absolute;
+    left: -270px;
+    grid-area: image;
+    min-width: 880px;
+    align-self: center;
+    justify-self: end;
+}
+.computer-section--description {
+    align-self: center;
+}
+.computer-section--description h2 {
+    text-align: left;
+}
+.computer-section--description p {
+    margin: 0;
+}
+.computer-description-1 {
+    grid-area: description1;
+}
+.computer-description-2 {
+    grid-area: description2
 }
