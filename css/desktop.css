@@ -137,3 +137,30 @@ main p {
 .computer-description-2 {
     grid-area: description2
 }
+
+/* ------------------------------------------------------ */
+
+.footer {
+    grid-template-areas: 
+    "logo product company connect"
+    "logo product-list company-list connect-list"
+    ;
+}
+.footer #product {
+    grid-area: product;
+}
+.footer #company {
+    grid-area: company;
+}
+.footer #connect {
+    grid-area: connect;
+}
+.footer--product {
+    grid-area: product-list;
+}
+.footer--company {
+    grid-area: company-list;
+}
+.footer--connect {
+    grid-area: connect-list;
+}

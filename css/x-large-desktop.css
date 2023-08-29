@@ -1,0 +1,51 @@
+/* .design-section--description,
+.art-section--description,
+.computer-section--description {
+    max-width: 100rem;
+} */
+
+/* ------------------------------------------------------ */
+
+.design-section-container {
+    column-gap: 450px;
+}
+.design-section--description {
+    margin-right: 0;
+}
+.design-section--description h2 {
+    margin-bottom: 1.6rem;
+}
+
+/* ------------------------------------------------------ */
+
+.computer-section-container {
+    column-gap: 345px;
+}
+
+@media (min-width: 1670px) and (max-width: 1850px) {
+    .design-section-container {
+        column-gap: 500px;
+    }
+    .computer-section-container {
+        column-gap: 400px;
+    }
+}
+@media (min-width: 1851px) and (max-width: 2131px) {
+    .design-section-container {
+        column-gap: 67rem;
+    }
+    .computer-section-container {
+        column-gap: 44rem;
+    }
+}
+
+@media (min-width: 2132px) and (max-width: 2700px) {
+    .design-section-container {
+        column-gap: 970px;
+    }
+    .computer-section-container {
+        column-gap: 740px;
+    }
+}
+
+/* done in a hurry... */
