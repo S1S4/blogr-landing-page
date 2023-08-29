@@ -66,3 +66,27 @@ main p {
 }
 
 /* ------------------------------------------------------ */
+
+.art-section-container {
+    grid-template-columns: 440px auto;
+    grid-template-areas: 
+    "image description"
+    ;
+    column-gap: 9.8rem;
+    padding: 11.1rem 10.5rem;
+    background-size: contain;
+    background-position: 5% 80%;
+}
+.image-phones {
+    grid-area: image;
+    top: -168px;
+    max-width: 54rem;
+}
+.art-section--description {
+    grid-area: description;
+}
+.art-section--description h2 {
+    padding: 0;
+    font-size: 3.8rem;
+    text-align: left;
+}
