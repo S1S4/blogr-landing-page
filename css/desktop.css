@@ -8,28 +8,61 @@ main p {
     background: url("../images/bg-pattern-intro-desktop.svg") 20% 54%;
     background-repeat: no-repeat;
 }
+.header-description h1 {
+    font-size: 6.4rem;
+}
+.header-description p {
+    font-size: 2rem;
+}
+
+/* ------------------------------------------------------ */
+
+
+.image-computer,
+.design-section--description,
+.art-section--description,
+.computer-section--description {
+    max-width: 54rem;
+}
 
 /* ------------------------------------------------------ */
 
 .design-section-container {
-    /* padding: 15rem 0 15.7rem; */
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    position: relative;
+    padding: 19rem 0 25rem 5rem;
+    grid-template-columns: auto 500px;
+    grid-template-rows: auto 500px;
     grid-template-areas: 
     "title title"
     "description image"
     ;
+    justify-content: end;
+    overflow-x: hidden;
+    background-color: transparent;
 }
 .design-section--title {
     grid-area: title;
+    margin: 0;
+    font-size: 4rem;
+    padding-right: 20rem;
 }
 .image-design {
+    position: absolute;
+    left: -128px;
     grid-area: image;
+    min-width: 860px;
+    margin: 0;
+    justify-self: end;
+    align-self: center;
 }
 .design-section--description {
     grid-area: description;
     align-self: center;
     justify-self: left;
+    margin-right: 22rem;
+}
+.design-section--description h2 {
+    margin: 0;
 }
 
 /* ------------------------------------------------------ */
