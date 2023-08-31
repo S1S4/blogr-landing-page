@@ -2,9 +2,9 @@ const navbarIcon = document.querySelector('.navbar-icon');
 const navProduct = document.querySelector('.desktop-options--product');
 const navCompany = document.querySelector('.desktop-options--company');
 const navConnect = document.querySelector('.desktop-options--connect');
-const navSubProduct = document.querySelector('.desktop-product');
-const navSubCompany = document.querySelector('.desktop-company');
-const navSubConnect = document.querySelector('.desktop-connect');
+const navSubProduct = document.querySelector('.subOption-product');
+const navSubCompany = document.querySelector('.subOption-company');
+const navSubConnect = document.querySelector('.subOption-connect');
 const mobileMenu = document.querySelector('.navbar--mobile-menu');
 
 navbarIcon.addEventListener('click', toggleMobileMenu);

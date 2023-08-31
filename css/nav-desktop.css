@@ -11,7 +11,7 @@ nav {
 
 /* ------------------------------------------------------ */
 
-.navbar-left {
+.navbar--desktop-menu {
     display: flex;
     justify-content: space-between;
 }
@@ -20,28 +20,43 @@ nav {
     gap: 4.8rem;
     align-items: center;
 }
-.desktop-options a {
+.desktop-options {
+    opacity: 1;
+}
+.desktop-options input {
     position: sticky;
-    text-decoration: none;
     font-size: 1.6rem;
     font-weight: 700;
     color: #fff;
 }
 .desktop-subOptions {
     position: absolute;
+    padding: 2.4rem;
+    text-align: left;
+    opacity: 1;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.24);
 }
+.desktop-subOptions a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #2D2E40;
+}
+.desktop-subOptions a:hover {
+    font-weight: 700;
+    color: black;
+}
 
 /* ------------------------------------------------------ */
 
-.navbar-left--buttons {
+.desktop-menu--buttons {
     display: flex;
     gap: 3.2rem;
     align-items: center;
 }
-.navbar-left-button--login {
+.desktop-menu-button--login {
     padding: 0;
     font-size: 1.6rem;
     font-weight: 700;
@@ -49,11 +64,11 @@ nav {
     opacity: 0.7;
     background-color: transparent;
 }
-.navbar-left-button--login:hover {
+.desktop-menu-button--login:hover {
     opacity: 1;
     text-decoration: underline;
 }
-.navbar-left-button--sign-up {
+.desktop-menu-button--sign-up {
     padding: 1.5rem 4rem;
     font-size: 16px;
     font-weight: 700;
@@ -61,7 +76,7 @@ nav {
     color: #FF505C;
     background-color: #fff;
 }
-.navbar-left-button--sign-up:hover {
+.desktop-menu-button--sign-up:hover {
     color: #FFF;
     background-color: #FF7B86;
 }

@@ -29,21 +29,65 @@
         <img src="./images/logo.svg" alt="blogr-logo" class="blogr-logo">
         <img src="./images/icon-hamburger.svg" alt="icon" class="navbar-icon">
 
-        <div class="navbar-left">
+        <div class="navbar--desktop-menu">
           <ul class="desktop-options">
             <li class="desktop-options--product">
-              <a href="#">Product <span></span></a>
+              <input type="hidden">Product <span></span></input>
+              <ul class="desktop-subOptions subOption-product inactive">
+                <li>
+                  <a href="#">Overview</a>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li>
+                  <a href="#">Marketplace</a>
+                </li>
+                <li>
+                  <a href="#">Features</a>
+                </li>
+                <li>
+                  <a href="#">Integrations</a>
+                </li>
+              </ul>
             </li>
+            
             <li class="desktop-options--company">
-              <a href="#">Company <span></span></a>
+              <input type="hidden">Company <span></span></input>
+              <ul class="desktop-subOptions subOption-company inactive">
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Team</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+              </ul>
             </li>
+
             <li class="desktop-options--connect">
-              <a href="#">Connect <span></span></a>
+              <input type="hidden">Connect <span></span></input>
+              <ul class="desktop-subOptions subOption-connect inactive">
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">Newsletter</a>
+                </li>
+                <li>
+                  <a href="#">LinkedIn</a>
+                </li>
+              </ul>
             </li>
           </ul>
-          <div class="navbar-left--buttons">
-            <button class="navbar-left-button--login">Login</button>
-            <button class="navbar-left-button--sign-up">Sign Up</button>
+          <div class="desktop-menu--buttons">
+            <button class="desktop-menu-button--login">Login</button>
+            <button class="desktop-menu-button--sign-up">Sign Up</button>
           </div>
         </div>
 
@@ -76,53 +120,6 @@
             <button class="mobile-menu-button--login">Login</button>
             <button class="mobile-menu-button--sign-up">Sign Up</button>
           </div>
-        </div>
-
-        <div class="navbar--desktop-menu">
-          <ul class="desktop-subOptions desktop-product inactive">
-            <li>
-              <a href="#">Overview</a>
-            </li>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
-            <li>
-              <a href="#">Marketplace</a>
-            </li>
-            <li>
-              <a href="#">Features</a>
-            </li>
-            <li>
-              <a href="#">Integrations</a>
-            </li>
-          </ul>
-
-          <ul class="desktop-subOptions desktop-company inactive">
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Team</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Careers</a>
-            </li>
-          </ul>
-          
-          <ul class="desktop-subOptions desktop-connect inactive">
-            <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Newsletter</a>
-            </li>
-            <li>
-              <a href="#">LinkedIn</a>
-            </li>
-          </ul>
         </div>
       </nav>
       <div class="header-description">

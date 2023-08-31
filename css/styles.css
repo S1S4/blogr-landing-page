@@ -315,7 +315,7 @@ button {
 }
 
 @media (max-width: 745px) {
-    .navbar-left {
+    .navbar--desktop-menu {
         display: none;
     }
     #image-design-desktop,
