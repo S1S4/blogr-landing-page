@@ -151,7 +151,7 @@ button {
     margin: 0 2.4rem;
     padding-top: 2.4rem;
     row-gap: 2.4rem;
-    border-top: 1px solid var(--gray-text);
+    border-top: 1px solid #E8E4E4;
 }
 .mobile-menu-button--login {
     font-family: 'Overpass', sans-serif;
@@ -166,7 +166,7 @@ button {
 .mobile-menu-button--sign-up {
     padding: 1.5rem 4rem;
     color: var(--white-text);
-    border-radius: 28px;
+    border-radius: 2.8rem;
     background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 }
 
@@ -314,7 +314,7 @@ button {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 745px) {
     .navbar-left {
         display: none;
     }
@@ -323,28 +323,8 @@ button {
         display: none;
     }
 }
-@media (min-width: 651px) {
-    nav {
-        grid-template-columns: 120px auto;
-        column-gap: 6.4rem;
-    }
-    .navbar-left {
-        display: flex;
-        justify-content: space-between;
-    }
-    .navbar-left ul {
-        display: flex;
-        gap: 4.8rem;
-    }
-    .navbar-icon {
-        display: none;
-    }
-    .navbar--mobile-menu {
-        display: none;
-    }
-}
 
-@media (min-width: 651px) and (max-width: 1229px) {
+@media (min-width: 670px) and (max-width: 1229px) {
     #image-design-desktop,
     #image-computer-desktop {
         display: none;
