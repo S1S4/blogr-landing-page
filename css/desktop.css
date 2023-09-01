@@ -144,6 +144,8 @@ main p {
     "logo product company connect"
     "logo product-list company-list connect-list"
     ;
+    justify-content: normal;
+    align-items: baseline;
 }
 .footer #product {
     grid-area: product;

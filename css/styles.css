@@ -293,6 +293,7 @@ button {
 
 .footer {
     display: grid;
+    justify-content: center;
     padding: 7.5rem 13.7rem;
     gap: 21px;
     background-color: #24242C;

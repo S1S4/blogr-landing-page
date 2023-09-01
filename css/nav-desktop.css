@@ -29,6 +29,15 @@ nav {
     font-weight: 700;
     color: #fff;
 }
+.desktop-options span {
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    margin-bottom: 2px;
+    background: url("../images/icon-arrow-light.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .desktop-subOptions {
     position: absolute;
     padding: 2.4rem;
