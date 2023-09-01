@@ -17,7 +17,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Solution Page]()
+- Solution URL: [Solution Page](https://www.frontendmentor.io/solutions/responsive-blogrlandingpage-using-css-grid-and-flexbox-oYlE3_63Nz)
 - Live Site: [Live Site at Github Pages](https://s1s4.github.io/blogr-landing-page/)
 
 ## My process
