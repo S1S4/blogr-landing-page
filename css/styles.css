@@ -10,14 +10,9 @@ html {
     font-size: 62.5%;
 }
 body {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     overflow-y: scroll;
     min-height: 100vh;
     font-family: 'Overpass', sans-serif;
-}
-body::-webkit-scrollbar {
-    display: none;
 }
 
 .inactive {
@@ -117,22 +112,37 @@ button {
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.24);
 }
 .mobile-options li {
+    position: relative;
+    margin-bottom: 2.4rem;
     font-size: 1.8rem;
     font-weight: 600;
     text-decoration: none;
     color: #1F3E5A;
 }
+.mobile-options span {
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    margin-bottom: 2px;
+    background: url("../images/icon-arrow-dark.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .mobile-subOptions {
-    border-radius: 5px;
+    position: sticky;
     margin: 2.4rem;
     padding: 1.7rem 0 2.5rem;
+    border-radius: 5px;
     background-color: rgb(45, 46, 64, 0.08);
 }
+.mobile-subOptions li {
+    margin-bottom: 1.2rem;
+}
 .mobile-subOptions a {
-    color: #1F3E5A;
     font-size: 1.6rem;
     font-weight: 600;
     text-decoration: none;
+    color: #1F3E5A;
     opacity: 0.7;
 }
 .mobile-menu--buttons {

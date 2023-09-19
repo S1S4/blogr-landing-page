@@ -19,9 +19,10 @@ nav {
     display: flex;
     gap: 4.8rem;
     align-items: center;
-}
-.desktop-options {
     opacity: 1;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 .desktop-options input {
     position: sticky;
