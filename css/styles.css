@@ -116,27 +116,19 @@ button {
     background-color: #fff;
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.24);
 }
-.mobile-options--top li:nth-child(1),
-.mobile-options--top li:nth-child(2) {
-    margin-bottom: 2.4rem;
-}
-.option-top a {
+.mobile-options li {
     font-size: 1.8rem;
     font-weight: 600;
     text-decoration: none;
     color: #1F3E5A;
 }
-.mobile-options--bottom {
+.mobile-subOptions {
     border-radius: 5px;
     margin: 2.4rem;
     padding: 1.7rem 0 2.5rem;
     background-color: rgb(45, 46, 64, 0.08);
 }
-.mobile-options--bottom li:nth-child(1),
-.mobile-options--bottom li:nth-child(2) {
-    margin-bottom: 1.2rem;
-}
-.option-bottom a {
+.mobile-subOptions a {
     color: #1F3E5A;
     font-size: 1.6rem;
     font-weight: 600;
